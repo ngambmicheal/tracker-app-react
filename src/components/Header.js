@@ -1,10 +1,20 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
-const Header = () => {
+const Header = ({title}) => {
     return (
         <header>
-            <h1> This is the my REact</h1>
+            <h1> {title}</h1>
         </header>
     )
 }
+
+Header.defaultProps = { 
+    title: 'This is Me'
+}
+
+Header.propTypes = {
+    title: PropTypes.string.isRequired
+}
+
 export default Header
