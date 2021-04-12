@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.task{
+  background-color: #eee;
+  margin: 3px;
+  padding: 3px
+}
+
+.container{
+  width: 350px;
+}
+
+.reminder{
+  border-left: 12px green solid;
+}
